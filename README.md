@@ -1,5 +1,10 @@
 # PriceMonitoring
 
+* Jsoup 
+* RxJava
+* Coroutines
+* Android Architecture Components(LiveData, ViewModel ...)
+
 ![home](https://trello.com/1/cards/5e9302b99ce16c341f2b42b2/attachments/5e9302ed70ef0541112d8f51/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e9302b99ce16c341f2b42b2%2F1080x2340%2F8ec04917c70161048984ebf514569665%2FScreenshot_2020-04-12-14-50-25-647_com.gmail.pricemonitoring.jpg)
 
 ![](https://trello.com/1/cards/5e9302b99ce16c341f2b42b2/attachments/5e9302e15c2a766012e08f41/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e9302b99ce16c341f2b42b2%2F1080x2340%2Fde6411bbbbe57e257f099c4c2f8bef1d%2FScreenshot_2020-04-12-14-53-12-945_com.gmail.pricemonitoring.jpg)
