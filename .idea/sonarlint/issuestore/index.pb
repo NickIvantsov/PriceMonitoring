@@ -87,8 +87,6 @@ Y
 )app/src/main/res/layout/fragment_home.xml,3\1\31c5880846ef63ff1963efbe141ddfd56680bb19
 a
 1app/src/main/res/layout/nav_header_price_list.xml,f\6\f6a22c40a6255eae2b701ad87f9565afe308493a
-]
--app/src/main/res/layout/recyclerview_item.xml,b\2\b27cd5441f01238f83112c0ecd7a8483e5183802
 d
 4app/src/main/res/menu/activity_price_list_drawer.xml,e\4\e44bea02a37c1dcbf0969cd8ac7042fed4969861
 T

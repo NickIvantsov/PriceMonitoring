@@ -2,15 +2,19 @@ package com.gmail.pricemonitoring.adapter
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.gmail.pricemonitoring.R
+import com.gmail.pricemonitoring.ui.WebActivity
+import com.gmail.pricemonitoring.ui.WebActivity.Companion.URL_VALUE
 import com.gmail.pricemonitoring.ui.ui.newUrl.NewUrlActivity
 import io.reactivex.rxjava3.core.Observable
 import kotlinx.android.parcel.Parcelize
@@ -30,9 +34,15 @@ class UrlListAdapter internal constructor(
         val priceView: TextView = itemView.findViewById(R.id.text_view_price)
         val imageView: ImageView = itemView.findViewById(R.id.image_view)
         val codeView: TextView = itemView.findViewById(R.id.text_view_code)
+        val cardContainer: CardView = itemView.findViewById(R.id.card_container)
 
         init {
             wordItemView.setOnClickListener {
+                val openlink = Intent(context,WebActivity::class.java)
+                openlink.putExtra(URL_VALUE,wordItemView.text.toString())
+                it.context.startActivity(openlink)
+            }
+            cardContainer.setOnClickListener {
                 val intent = Intent(it.context, NewUrlActivity::class.java)
                 intent.putExtra("VALUE", wordItemView.text)
                 it.context.startActivity(intent)
