@@ -71,8 +71,8 @@ class HomeFragment : Fragment() {
         urlViewModel.allUrls.observe(viewLifecycleOwner, Observer { words ->
             adapter.clearElements()
             println("words = $words")
-            var coun = 0
-            totalsView.text = "Общее количество: ${words.size}"
+            var coun = 1
+            totalsView.text = "Общее количество: ${if (words.isNotEmpty()) words.size + 1 else 0}"
             // adapter.clearElements()
             // Update the cached copy of the words in the adapter.
             words?.let { list ->
@@ -151,6 +151,7 @@ class HomeFragment : Fragment() {
         })
         return root
     }
+
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
