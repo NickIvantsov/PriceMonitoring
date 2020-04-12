@@ -14,7 +14,7 @@
 
 ![](https://trello.com/1/cards/5e9302b99ce16c341f2b42b2/attachments/5e9302de3509843efe87ada4/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e9302b99ce16c341f2b42b2%2F1080x2340%2F5e41cdcefe8f9183659118d91fd81fea%2FScreenshot_2020-04-12-14-53-31-540_android.jpg)
 
-![](https://trello.com/1/cards/5e9302b99ce16c341f2b42b2/attachments/5e9302dcc53a4076536f3a44/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e9302b99ce16c341f2b42b2%2F1080x2340%2F107fd6c64a767ac7eb0c36f219326da5%2FScreenshot_2020-04-12-14-54-01-768_com.gmail.pricemonitoring.jpg)
+![import](https://trello.com/1/cards/5e9302b99ce16c341f2b42b2/attachments/5e9342f04e792e38b055b84c/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e9302b99ce16c341f2b42b2%2F1080x2340%2F0519402a52185a50f4592514db292097%2FScreenshot_2020-04-12-19-33-15-874_com.gmail.pricemonitoring.jpg)
 
 ![](https://trello.com/1/cards/5e9302b99ce16c341f2b42b2/attachments/5e9302da50affb475e3e0ad5/previews/download?backingUrl=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F5e9302b99ce16c341f2b42b2%2F1080x2340%2F17ce711e84ccb01b10ea33b71893cc42%2FScreenshot_2020-04-12-14-53-45-131_com.gmail.pricemonitoring.jpg)
 
