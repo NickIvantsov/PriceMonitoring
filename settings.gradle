@@ -1,0 +1,2 @@
+rootProject.name='PriceMonitoring'
+include ':app'

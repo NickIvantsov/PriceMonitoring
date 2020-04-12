@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PriceMonitoring</string>
+
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_delete_all">Delete all data</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="add_url">add_word</string>
+    <string name="title_activity_price_list">PriceListActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_import">Import</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
