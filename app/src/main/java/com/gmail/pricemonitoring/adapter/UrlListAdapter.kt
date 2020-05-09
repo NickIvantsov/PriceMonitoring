@@ -16,6 +16,7 @@ import com.gmail.pricemonitoring.R
 import com.gmail.pricemonitoring.ui.WebActivity
 import com.gmail.pricemonitoring.ui.WebActivity.Companion.URL_VALUE
 import com.gmail.pricemonitoring.ui.ui.newUrl.NewUrlActivity
+import com.gmail.pricemonitoring.util.Constants.parsUrl
 import io.reactivex.rxjava3.core.Observable
 import kotlinx.android.parcel.Parcelize
 
@@ -58,7 +59,7 @@ class UrlListAdapter internal constructor(
     override fun onBindViewHolder(holder: UrlViewHolder, position: Int) {
         val infoElement = data[position]
         holder.wordItemView.text = infoElement.urlElement
-        val tmpUrl = "https://www.citrus.ua/"
+        val tmpUrl = parsUrl
         val tmpUrl2 = infoElement.urlElement.indexOf("/", tmpUrl.length, true)
         Observable.create<String> {
             it.onNext(infoElement.urlElement.subSequence(tmpUrl.length, tmpUrl2).toString())
